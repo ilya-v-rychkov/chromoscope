@@ -1,0 +1,22 @@
+cabal-version:       2.2
+name:                chromoscope
+version:             0.1.0.0
+-- synopsis:
+-- description:
+-- bug-reports:
+license:             BSD-3-Clause
+license-file:        LICENSE
+author:              Ilya Rychkov
+maintainer:          ilya.v.rychkov@gmail.com
+-- copyright:
+category:            Development
+extra-source-files:  CHANGELOG.md
+
+executable chromoscope
+  main-is:             Main.hs
+  -- other-modules:
+  -- other-extensions:
+  build-depends: base, ghc-events, bytestring, vector, text, scientific, time, 
+                 vector-algorithms, aeson, lens, foldl, containers
+  -- hs-source-dirs:
+  default-language:    Haskell2010
